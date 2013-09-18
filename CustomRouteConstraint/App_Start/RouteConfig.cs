@@ -25,7 +25,7 @@ namespace CustomRouteConstraint
                     ,
                     validDate = new IsDateValidConstraint()
                     ,
-                    methods = new HttpMethodConstraint(allowedMethods);
+                    methods = new HttpMethodConstraint(allowedMethods)
                 }
                 );
 
