@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRouteConstraint", "CustomRouteConstraint\CustomRouteConstraint.csproj", "{D0E36C95-3E2C-4A16-87AD-3B3B0ED411FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRouteHandler", "CustomRouteHandler\CustomRouteHandler.csproj", "{2682A8C6-F4DF-4C8E-8B6F-A833BCB3097F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{D0E36C95-3E2C-4A16-87AD-3B3B0ED411FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E36C95-3E2C-4A16-87AD-3B3B0ED411FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E36C95-3E2C-4A16-87AD-3B3B0ED411FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2682A8C6-F4DF-4C8E-8B6F-A833BCB3097F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2682A8C6-F4DF-4C8E-8B6F-A833BCB3097F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2682A8C6-F4DF-4C8E-8B6F-A833BCB3097F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2682A8C6-F4DF-4C8E-8B6F-A833BCB3097F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

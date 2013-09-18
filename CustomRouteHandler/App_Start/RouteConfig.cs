@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using CustomRouteHandler.Routing;
 
 namespace CustomRouteHandler
 {
@@ -12,6 +13,12 @@ namespace CustomRouteHandler
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            var ipAddressRoute = new Route("GetIp"
+                , new MyRouteHandler());
+
+            routes.Add("GetIpAddress"
+                , ipAddressRoute);
 
             routes.MapRoute(
                 name: "Default",
