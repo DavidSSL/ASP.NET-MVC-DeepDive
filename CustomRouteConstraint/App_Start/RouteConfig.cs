@@ -1,5 +1,6 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
+using CustomRouteConstraint.Routing;
 
 namespace CustomRouteConstraint
 {
@@ -19,6 +20,8 @@ namespace CustomRouteConstraint
                     month = @"\d{1,2}"
                     ,
                     day = @"\d{1,2}"
+                    ,
+                    validDate = new IsDateValidConstraint()
                 }
                 );
 
